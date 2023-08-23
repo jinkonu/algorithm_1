@@ -1,5 +1,9 @@
 package low.dataStructure_1;
 
+/*
+2023년 8월 19일 토요일
+ */
+
 import java.io.*;
 import java.util.LinkedList;
 

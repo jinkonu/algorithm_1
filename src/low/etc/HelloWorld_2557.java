@@ -1,4 +1,4 @@
-package low;
+package low.etc;
 
 /* 2023년 8월 16일 수요일
 
