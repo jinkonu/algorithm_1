@@ -1,12 +1,11 @@
-import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.util.*;
-import java.io.*;
+import javax.swing.*;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Collections;
+
 public class Main {
 
     public static void main(String[] args) {
-        Queue<Integer> queue = new LinkedList<>();
-        double i = Math.pow(5, 10);
-        System.out.println(i);
+
     }
 }
