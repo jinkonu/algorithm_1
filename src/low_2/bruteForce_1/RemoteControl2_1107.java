@@ -1,4 +1,4 @@
-package low_2.bruteForce;
+package low_2.bruteForce_1;
 
 /*
 2023년 9월 7일 목요일

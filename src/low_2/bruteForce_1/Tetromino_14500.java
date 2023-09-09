@@ -1,4 +1,4 @@
-package low_2.bruteForce;
+package low_2.bruteForce_1;
 
 import java.io.*;
 
