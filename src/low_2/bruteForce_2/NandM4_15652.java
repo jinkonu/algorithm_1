@@ -2,6 +2,14 @@ package low_2.bruteForce_2;
 
 import java.io.*;
 
+/*
+2023년 9월 11일 월요일
+(1)
+    brute force 문제다.
+    15651번과 비슷하게 풀었지만 어쩐지 성능이 떨어진다.
+    높일 수 있는 방법을 찾아야 할 것 같다.
+ */
+
 public class NandM4_15652 {
     static StringBuilder result;
     static int N;
