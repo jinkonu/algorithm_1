@@ -1,13 +1,14 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
-        Integer a = 1;
-        Integer b = 1;
+        List<Integer> seq = new ArrayList<>();
 
-        if (a.equals(b))
-            System.out.println("shibal");
+        seq.add(1);
+        if (seq.contains(1)) System.out.println("shibal");
     }
 
 }
