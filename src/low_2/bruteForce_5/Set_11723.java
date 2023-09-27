@@ -16,6 +16,7 @@ public class Set_11723 {
     static StringBuilder result;
     static int M;
     static BitSet bitmask;
+    static int bit;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -33,7 +34,7 @@ public class Set_11723 {
             if (!command.equals("empty") && !command.equals("all"))
                 num = parseInt(line[1]);
 
-            operation(command, num);
+            operation2(command, num);
         }
 
         // LOGIC FINISH
@@ -67,6 +68,28 @@ public class Set_11723 {
             case "empty" -> {
                 bitmask.clear(0, 21);
             }
+        }
+    }
+
+    private static void operation2(String command, int num) {
+        switch (command) {
+            case "add" ->
+                bit |= 1 << num - 1;
+
+            case "remove" ->
+                bit &= ~(1 << num - 1);
+
+            case "check" ->
+                result.append((bit & (1 << num - 1)) != 0 ? 1 : 0).append("\n");
+
+            case "toggle" ->
+                bit ^= 1 << num - 1;
+
+            case "all" ->
+                bit = (1 << 20) - 1;
+
+            case "empty" ->
+                bit = 0;
         }
     }
 }
