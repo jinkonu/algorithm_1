@@ -5,12 +5,10 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        boolean[][] x = new boolean[1][1];
-        boolean[][] y = x;
+        String line = "konu";
+        String[] line2 = line.split(" ");
 
-        x[0][0] = true;
-
-        System.out.println(y[0][0]);
+        System.out.println(line2[0]);
     }
 
 }
