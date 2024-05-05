@@ -1,5 +1,10 @@
 package soptrithm.week_4;
 
+/*
+* 시간초과가 나서 답안을 확인했다.
+* visited를 앞의 두 돌의 개수 기준으로 한다는 게 특이하다.
+* */
+
 import java.util.*;
 import java.io.*;
 
