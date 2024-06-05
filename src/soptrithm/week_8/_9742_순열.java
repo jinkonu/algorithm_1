@@ -1,4 +1,4 @@
-package soptrithm.week_7;
+package soptrithm.week_8;
 
 /*
 * 순서를 빠르게 찾으려고 했지만
