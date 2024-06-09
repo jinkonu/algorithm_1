@@ -1,5 +1,11 @@
 package soptrithm.week_8;
 
+/*
+* 기본적으로 BFS를 사용해도 괜찮은 이유는,
+* PriorityQueue를 운용하면서 벽을 가장 적게 부순 경로로만 이동하도록 하기 때문이다.
+* 따라서 최소 경로를 찾을 수 있게 된 것...
+* */
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
